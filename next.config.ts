@@ -13,8 +13,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath,
-  assetPrefix: basePath || undefined,
+  basePath: '/unityknowledge',
+  assetPrefix: '/unityknowledge',
 };
 
 export default nextConfig;
