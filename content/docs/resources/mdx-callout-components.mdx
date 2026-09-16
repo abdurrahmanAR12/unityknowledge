@@ -1,0 +1,43 @@
+# MDX Callout Components
+
+This site supports simple MDX callout components you can use while expanding the handbook.
+
+<Tip title="When to use this">
+Use these components for high-signal warnings, production rules, migration notes, and review checklists.
+</Tip>
+
+## Available components
+
+- `<Callout type="info" title="...">`
+- `<Tip title="...">`
+- `<Warning title="...">`
+- `<Checklist title="...">`
+
+## Example
+
+```mdx
+<Warning title="Before upgrading Unity">
+Always create a branch or duplicate before major editor or package migrations.
+</Warning>
+```
+
+<Warning title="Before upgrading Unity">
+Always create a branch or duplicate before major editor or package migrations.
+</Warning>
+
+## Checklist example
+
+<Checklist title="Scene transition validation">
+
+- test cold boot
+- test reload
+- test return to menu
+- test save/load after transition
+
+</Checklist>
+
+## Info callout example
+
+<Callout type="info" title="Why this helps">
+Callouts make the important parts visually distinct, which is useful in long technical pages.
+</Callout>

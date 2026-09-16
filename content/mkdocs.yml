@@ -1,0 +1,89 @@
+site_name: Unity Developer Knowledge Base
+nav:
+  - Home: index.md
+  - Start Here: start-here.md
+  - What to Read by Need: what-to-read-by-need.md
+  - Learning Paths: learning-paths.md
+  - Direct Answers:
+      - Why Is My Project Not Opening?: questions/why-is-my-project-not-opening.md
+      - Why Did Package Changes Break Everything?: questions/why-did-package-changes-break-everything.md
+      - Why Do References Vanish After Refactors or Git Pulls?: questions/why-do-references-vanish-after-refactors-or-git-pulls.md
+      - Why Does This Only Fail in Build?: questions/why-does-this-only-fail-in-build.md
+      - Why Do Input / UI / XR / Networking Behave Weirdly?: questions/why-do-input-ui-xr-networking-behave-weirdly.md
+      - Which Unity Package Should I Adopt?: questions/which-unity-package-should-i-adopt.md
+      - What Should I Read First for the Exact Thing I Need?: questions/what-should-i-read-first-for-the-exact-thing-i-need.md
+  - Getting Started:
+      - Installation and Editor Setup: getting-started/installation-and-editor-setup.md
+      - First Project and Project Settings: getting-started/first-project-and-project-settings.md
+  - Workflow:
+      - Project Organization and Version Control: workflow/project-organization-and-version-control.md
+      - Package Management, Version Upgrades, and Migrations: workflow/package-management-version-upgrades-and-migrations.md
+      - Asset Store and Third-Party Plugin Integration Policy: workflow/asset-store-and-third-party-plugin-policy.md
+      - CI, Build Automation, and DevOps: workflow/ci-build-automation-and-devops.md
+      - Code Style and Review Checklist: workflow/code-style-and-review-checklist.md
+  - Scripting:
+      - C# and Unity Scripting: scripting/csharp-and-unity-scripting.md
+      - Common Scripting Errors and Debugging: scripting/common-scripting-errors-and-debugging.md
+  - Architecture:
+      - Modular Architecture, ScriptableObjects, and Assembly Definitions: architecture/modular-architecture-scriptableobjects-asmdefs.md
+      - Scene Management and Bootstrap Architecture: architecture/scene-management-and-bootstrap-architecture.md
+      - "Reference Architecture: Bootstrap, Save/Load, and Scene Transitions": architecture/reference-architecture-bootstrap-save-load-scenes.md
+  - Assets:
+      - Asset Pipeline, Import Settings, and Addressables: assets/asset-pipeline-import-settings-addressables.md
+  - UI:
+      - UI Toolkit, uGUI, and UI Problems: ui/ui-toolkit-ugui-and-ui-problems.md
+  - Graphics:
+      - Render Pipelines, Lighting, and Shaders: graphics/render-pipelines-lighting-and-shaders.md
+      - Shader and Rendering Debugging Deep Dive: graphics/shader-and-rendering-debugging-deep-dive.md
+  - Physics:
+      - Physics 2D/3D and Gameplay Issues: physics/physics-2d-3d-and-gameplay-issues.md
+  - Animation:
+      - Animation, Mecanim, and Rigging Issues: animation/animation-mecanim-and-rigging-issues.md
+      - Animator Controller Debugging: animation/animator-controller-debugging.md
+  - Audio:
+      - Audio, Mixers, Import Settings, and Bugs: audio/audio-mixers-import-settings-and-bugs.md
+  - Systems:
+      - Save/Load Systems: systems/save-load-systems.md
+  - Optimization:
+      - Profiling, Memory, GC, and Performance: optimization/profiling-memory-gc-and-performance.md
+      - Mobile Optimization Deep Dive: optimization/mobile-optimization-deep-dive.md
+  - Builds:
+      - Build Pipeline, Platforms, and Release Checklists: builds/build-pipeline-platforms-and-release-checklists.md
+  - Multiplayer:
+      - Multiplayer, Netcode, and UGS: multiplayer/multiplayer-netcode-and-ugs.md
+      - Multiplayer Debugging Runbook: multiplayer/multiplayer-debugging-runbook.md
+  - XR:
+      - AR, VR, XR Foundation, and OpenXR: xr/ar-vr-xr-foundation-and-openxr.md
+      - Meta Quest Runbook: xr/meta-quest-runbook.md
+      - visionOS / Apple Vision Pro Runbook: xr/visionos-runbook.md
+      - AR Mobile Runbook: xr/ar-mobile-runbook.md
+  - Packages:
+      - Package Guides Overview: packages/index.md
+      - Addressables: packages/addressables.md
+      - Input System: packages/input-system.md
+      - Cinemachine: packages/cinemachine.md
+      - Timeline: packages/timeline.md
+      - DOTS, Jobs, Burst, and Entities: packages/dots-jobs-burst-entities.md
+      - AR Foundation: packages/ar-foundation.md
+      - Netcode for GameObjects: packages/netcode-for-gameobjects.md
+      - XR Interaction Toolkit and OpenXR: packages/xri-openxr.md
+  - Platforms:
+      - Platform Guides Overview: platforms/index.md
+      - Android: platforms/android.md
+      - iOS: platforms/ios.md
+      - WebGL: platforms/webgl.md
+  - Testing:
+      - Testing, QA, and Maintenance: testing/testing-qa-and-maintenance.md
+  - Troubleshooting:
+      - Common Problems by Symptom: troubleshooting/common-problems-by-symptom.md
+      - Package Manager and Dependency Conflicts: troubleshooting/package-manager-and-dependency-conflicts.md
+      - Scene Loading, Lifecycle, and Execution Order: troubleshooting/scene-loading-lifecycle-and-execution-order.md
+      - Scenes, Prefabs, Serialization, and Missing References: troubleshooting/scenes-prefabs-serialization-and-missing-references.md
+      - Performance Runbook: troubleshooting/performance-runbook.md
+      - Error Message Cheatsheet: troubleshooting/error-message-cheatsheet.md
+  - Resources:
+      - Verified Resource Map: resources/verified-resource-map.md
+      - Package Decision Matrix: resources/package-decision-matrix.md
+      - Team Onboarding Path: resources/team-onboarding-path.md
+      - Release Checklist Master: resources/release-checklist-master.md
+      - MDX Callout Components: resources/mdx-callout-components.mdx
